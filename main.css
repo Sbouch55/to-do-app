@@ -1,0 +1,39 @@
+body {
+  padding-bottom: 5rem;
+}
+
+header {
+  background: url(images/Marble.jpg) center / cover;
+  heights: 60vh;
+  justify-content: center;
+  text-align: center;
+}
+h1 {
+  color: hsla(0, 0%, 100%, 0.9);
+  font-weight: bold;
+}
+
+.slogan {
+  color: #553c00;
+  font-weight: medium;
+  font-size: 1.6rem;
+}
+
+div {
+
+  margin: auto;
+  width: 50%;
+  border: 3px solid green;
+  padding: 10px;
+  text-align: center;
+  margin-top: 6%;
+  color: #a05a00;
+
+}
+
+
+@media screen and (max-width: 1024px) {
+  header.mdl-layout__header {
+    display: flex;
+  }
+}
